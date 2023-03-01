@@ -23,9 +23,9 @@ print("O dobro do número digitado é", dobro)
 numerosDivididos = 0
 contadorDivisao = 0
 while numerosDivididos <= num:
-    numerosDivididos = numerosDivididos + 1
+    numerosDivididos += 1
     if num%numerosDivididos == 0:
-        contadorDivisao = contadorDivisao + 1
+        contadorDivisao += 1
 print("Ao todo, existem", contadorDivisao, "valores divisíveis")
 if contadorDivisao > 2:
     print("Ou seja, esse número não é primo!")
